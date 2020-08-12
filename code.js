@@ -1,4 +1,3 @@
-<script>
     /* Funcionalidad para mostrar mostrar el deatalle de la actividad en el form, eso es algo unicamente visual
     no afecta al form perse */
     $("#template").css("display", "none");
@@ -6,13 +5,8 @@
         let check = $(this);
         var actividad = check.attr('add-act');
         var detalle = actividad.split("_");
-
-
-
-
         if (check.is(':checked')) {
-            if (($('#' + detalle[0]))f.length === 0) {
-
+            if (($('#' + detalle[0])).length === 0) {
                 //create new li
                 var clon = $('#detail_list li:first').clone().attr('id', detalle[0]);
                 console.log(clon.children.length);
@@ -24,10 +18,8 @@
             } else {
                 $('#' + detalle[0]).find("p.day-item").append(" - " + detalle[3]);
             }
-
         }
         else { // if user unchecks the checkbox
-
             var dia_alternativo = check.parent().siblings().children("input").is(':checked');
             if (dia_alternativo) {
                 let dias = [];
@@ -39,29 +31,18 @@
                     }
                 }
                 console.log("desp de cortar ", dias);
-
                 console.log(dias);
                 $('#' + detalle[0]).find("p.day-item").text(dias);
                 dias = [];
-
-
                 console.log('el item con la actividad ya existe, habria que sacar el dia indicado por el checkbox, pero no eliminar');
             } else {
                 console.log('eliminar');
                 $('#' + detalle[0]).hide("slow");
                 $('#' + detalle[0]).remove().delay(2000);
-
             }
-
             console.log(dia_alternativo);
         }
     });
-
-</script>
-
-
-
-<script>
     $("#mision").click(function () {
         $("#tab-mision").click();
         console.log('click');
@@ -86,10 +67,8 @@
         topFunction()
         return false;
     });
-
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
         document.body.scrollTop = 0; // para Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
-</script>
