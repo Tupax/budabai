@@ -1,0 +1,22 @@
+{
+  "name": "budabai",
+  "version": "1.0.0",
+  "description": "just for do some triks to frontend",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tupax/budabai.git"
+  },
+  "keywords": [
+    "budabai"
+  ],
+  "author": "Moaksy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tupax/budabai/issues"
+  },
+  "homepage": "https://github.com/Tupax/budabai#readme"
+}
