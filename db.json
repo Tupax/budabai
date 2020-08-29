@@ -1,4 +1,4 @@
-({
+{
   "titulo": "Vinyasa Budawild",
   "instructor": "Jean-Paul Massonnier",
   "horario-inicio": 18,
@@ -33,4 +33,4 @@
   "modalidad": "grupal",
   "exigencia": "extrema",
   "dias": [1, 4]
-})
+}
