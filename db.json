@@ -1,6 +1,7 @@
 {
   "actividades": [
     {
+      "id":"a1",
       "titulo": "Vinyasa Budawild",
       "instructor": "Jean-Paul Massonnier",
       "horario-inicio": 18,
@@ -10,6 +11,7 @@
       "dias": [2, 4]
     },
     {
+      "id":"a2",
       "titulo": "Hatha Flow",
       "instructor": " Agustina Venzano",
       "horario-inicio": "11:00",
@@ -19,6 +21,7 @@
       "dias": [2, 4]
     },
     {
+      "id":"a3",
       "titulo": "Buda Thai",
       "instructor": "Jean-Paul Massonnier",
       "horario-inicio": "16:00",
@@ -28,6 +31,7 @@
       "dias": [5]
     },
     {
+      "id":"a4",
       "titulo": "Acro Yoga",
       "instructor": "Fernanda Argüello",
       "horario-inicio": "18:00",
