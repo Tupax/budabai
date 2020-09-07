@@ -2,10 +2,10 @@
   "actividades": [
     {
       "id": "a1",
-      "titulo": "Vinyasa Budawild",
+      "titulo": "Free Vinyasa",
       "instructor": "Jean-Paul Massonnier",
-      "horario-inicio": 18,
-      "horario-fin": 19,
+      "horario-inicio": "18:00",
+      "horario-fin": "19:00",
       "modalidad": "grupal",
       "exigencia": "media",
       "dias": [2, 4],
